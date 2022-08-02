@@ -1,5 +1,6 @@
-const { Collection } = require("discord.js");
-
+import { Collection } from "discord.js";
 const blacklistedWords = new Collection();
-
-module.exports = { blacklistedWords };
+export { blacklistedWords };
+export default {
+    blacklistedWords
+};

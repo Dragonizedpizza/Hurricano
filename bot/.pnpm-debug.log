@@ -1,0 +1,15 @@
+{
+  "0 debug pnpm:scope": {
+    "selected": 1
+  },
+  "1 error pnpm": {
+    "code": "ERR_PNPM_CANNOT_REMOVE_MISSING_DEPS",
+    "hint": "Available dependencies: @discord-player/extractor, @discordjs/opus, @hurricano/prettier-config, @top-gg/sdk, ascii-table, canvacord, discord-giveaways, discord-player, discord.js, dotenv, ejs, express, ffmpeg-static, mathjs, moment, mongoose, node-fetch, statcord.js, twemoji-parser, weird-to-normal-chars, winston, ytdl-core",
+    "err": {
+      "name": "pnpm",
+      "message": "Cannot remove 'cjstoesm': no such dependency found",
+      "code": "ERR_PNPM_CANNOT_REMOVE_MISSING_DEPS",
+      "stack": "pnpm: Cannot remove 'cjstoesm': no such dependency found\n    at Object.handler (/usr/pnpm-global/5/node_modules/.pnpm/pnpm@6.31.0/node_modules/pnpm/dist/pnpm.cjs:122959:15)\n    at async /usr/pnpm-global/5/node_modules/.pnpm/pnpm@6.31.0/node_modules/pnpm/dist/pnpm.cjs:182106:21\n    at async run (/usr/pnpm-global/5/node_modules/.pnpm/pnpm@6.31.0/node_modules/pnpm/dist/pnpm.cjs:182080:34)\n    at async runPnpm (/usr/pnpm-global/5/node_modules/.pnpm/pnpm@6.31.0/node_modules/pnpm/dist/pnpm.cjs:182299:5)\n    at async /usr/pnpm-global/5/node_modules/.pnpm/pnpm@6.31.0/node_modules/pnpm/dist/pnpm.cjs:182291:7"
+    }
+  }
+}
